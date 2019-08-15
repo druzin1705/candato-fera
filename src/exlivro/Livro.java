@@ -10,39 +10,50 @@ public class Livro {
     private String editora;
     private int valor;
     
-    public String getTitulo(String titulo){
+    public String setTitulo(String titulo){
         
         this.titulo=titulo;
     }
     
-     public String getAutor(String autor){
+     public String setAutor(String autor){
         
         this.autor=autor;
     }
      
-     public String getIspn(String ispn){
+     public String setIspn(String ispn){
         
         this.ispn=ispn;
         
         }
      
-     public int getqntdPagina(int qntdPagina){
+     public int setqntdPagina(int qntdPagina){
          
          this.qntdPagina=qntdPagina;
          
     }
       
-    public int getAno(int ano){
+    public int setAno(int ano){
          
          this.ano=ano;
          
     }
      
-    public int getValor(int valor){
+    public void setValor(int valor){
          
          this.valor=valor;
          
     }
     
+    public String getTitulo(String titulo){
+        
+       return this.titulo=titulo;
+    }
     
+    
+    public void setValor(int valor){
+         
+        return this.valor=valor;
+         
+    }
+    public void set
 }
